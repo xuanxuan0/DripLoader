@@ -1,4 +1,5 @@
 # DripLoader (PoC)
+![msbuild](https://github.com/xinbailu/DripLoader/actions/workflows/msbuild.yml/badge.svg)
 Evasive shellcode loader for bypassing event-based injection detection, without necessarily suppressing event collection (still added direct syscalls, just so I don't have to deal with AV). The project is aiming to highlight limitations of event-driven injection identification, and show the need for more advanced memory scanning and smarter local agent software inventories in EDR.
 
 ## DripLoader evades common EDRs by:
