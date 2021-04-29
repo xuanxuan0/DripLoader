@@ -33,8 +33,6 @@ To test it out of the box
 
 I attached an example `MessageBox` blob for your pleasure, be aware though it's size is unrealistically small for a payload.
 
-![driploader](https://user-images.githubusercontent.com/32537788/116470458-bc5f4e00-a873-11eb-9fca-42e277f6a3eb.png)
-
 ASCII arts are essential for tools like this to work
-![image](https://user-images.githubusercontent.com/32537788/116482174-eb31f000-a884-11eb-844d-9db69cdbe20d.png)
+![loader](https://user-images.githubusercontent.com/32537788/116489666-cabe6180-a895-11eb-99af-e6b3143f84b1.gif)
 
