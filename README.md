@@ -18,7 +18,7 @@ Evasive shellcode loader for bypassing event-based injection detection, without 
 - Overwrites prologue of one `ntdll` function in the remote process memory space with a `jmp` to our base
 - Drops a thread on that trampoline 
 
-I'll explain the thinking behind each step in a blog post coming end of the week.
+I'll explain some of the thinking here: https://blog.redbluepurple.io/offensive-research/bypassing-injection-detection
 
 ## And so
 - It's able to fully bypass many EDR injection detections, including Defender ATP. 
