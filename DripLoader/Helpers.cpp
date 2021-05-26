@@ -97,9 +97,11 @@ unsigned char* ReadProcessBlob(const char* fnamSc, DWORD* szSc)
         FILE_ATTRIBUTE_NORMAL,
         NULL
     );
+    
+    if (INVALID_HANDLE_VALUE == hFile)
+        return nullptr;
 
-    DWORD szFile = GetFileSize(hFile, NULL);
-
+    SIZE_T szFile = GetFileSize(hFile, NULL);
     *szSc = szFile;
 
     unsigned char* raw = new unsigned char[szFile];
