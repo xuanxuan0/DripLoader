@@ -1,3 +1,5 @@
+(cleaned up version here: https://github.com/xinbailu/DripLoader-Ops)
+
 # DripLoader (PoC)
 ![msbuild](https://github.com/xinbailu/DripLoader/actions/workflows/msbuild.yml/badge.svg)
 
