@@ -1,5 +1,3 @@
-(cleaned up version here: https://github.com/xinbailu/DripLoader-Ops)
-
 # DripLoader (PoC)
 ![msbuild](https://github.com/xinbailu/DripLoader/actions/workflows/msbuild.yml/badge.svg)
 
@@ -36,7 +34,3 @@ To test it out of the box
 - run it and follow the prompts or ./DripLoader.exe <target_pid> <delay_per_step_ms>
 
 I attached an example `MessageBox` blob for your pleasure, be aware though it's size is unrealistically small for a payload.
-
-ASCII arts are essential for tools like this to work
-![loader](https://user-images.githubusercontent.com/32537788/116489666-cabe6180-a895-11eb-99af-e6b3143f84b1.gif)
-
